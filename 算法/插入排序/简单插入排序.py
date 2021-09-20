@@ -8,7 +8,7 @@ def Simple_insertion_Sort(arr):
             while j>0 and target<arr[j-1]:
                 arr[j]=arr[j-1]
                 j-=1
-            arr[j]=target
+            arr[j] = target
         return arr
 
 
